@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(todo.png);
+    
+    background-size: cover;
+
+}
+.container
+{
+    border: 2px solid white;
+    width: 40%;
+    min-width: 450px;
+    position: relative;
+    top: 100px;
+    left:400px;
+    padding: 30px 40px;
+}
+.newtask
+{
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+.newtask input{
+    width:70%;
+    height: 45px;
+    font-family:'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2 px solid white;
+    padding:12px;
+    color: black;
+}
+.newtask button
+{
+    position: relative;
+    float: right;
+    width: 20%;
+    height:45px;
+    font-family:"Poppins",sans-serif ;
+    font-size: 16px;
+    border: none;
+    background-color :dodgerblue;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+.task{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width:100%;
+    border-radius: 10px;}
+.tasks{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.tasks button{
+    width:40px;
+    height:100%;
+    background-color :dodgerblue;
+    border-radius: 5px;
+}
+.completed{
+    text-decoration: line-through;
+    cursor: pointer;
+}
